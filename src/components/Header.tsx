@@ -15,7 +15,7 @@ const Header = () => {
             >
               Quiz
             </Typography>
-            <Link to="/create">
+            <Link to="/Quiz/create">
               <Button variant="contained" color="secondary">
                 Create
               </Button>
