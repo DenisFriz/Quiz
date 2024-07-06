@@ -47,7 +47,7 @@ export default function DataProvider({
     const fetchDataFromServer = async () => {
       try {
         setIsLoading(true);
-        const result = await fetchData("https://localhost:3000/FakeData");
+        const result = await fetchData("http://localhost:3000/FakeData");
         if (!result.success || result.data === null) {
           throw new Error(
             "An error occurred while loading data from the server."

@@ -127,7 +127,7 @@ const Timer = ({ allQuestion, complete, isEnd, setElapsedTime }: ITimer) => {
         {complete} / {allQuestion}
       </Typography>
       <Grid container spacing={2}>
-        {Array.from({ length: allQuestion }, (item, index) => (
+        {Array.from({ length: allQuestion }, (_item, index) => (
           <Grid item md={3} key={index}>
             <CustomUl className={complete <= index ? "" : "Ul-complete"}>
               {index + 1}

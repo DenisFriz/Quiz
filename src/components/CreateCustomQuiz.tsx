@@ -75,7 +75,7 @@ const CreateCustomQuiz = () => {
             image: quizData.imgLink,
             data: quizData.data,
           };
-          const response = await fetch("https://localhost:3000/FakeData", {
+          const response = await fetch("http://localhost:3000/FakeData", {
             method: "POST",
             headers: {
               "Content-Type": "application/json;charset=utf-8",
