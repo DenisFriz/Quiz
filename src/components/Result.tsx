@@ -51,7 +51,7 @@ const Result = ({
           {correctAnswers} / {allQuestions}
         </span>
       </Typography>
-      <Link to="/">
+      <Link to="/Quiz">
         <Button variant="contained" color="secondary">
           GO
         </Button>
