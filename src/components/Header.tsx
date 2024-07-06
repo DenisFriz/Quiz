@@ -20,7 +20,7 @@ const Header = () => {
                 Create
               </Button>
             </Link>
-            <Link to="/">
+            <Link to="/Quiz">
               <Button variant="contained" color="secondary">
                 Main
               </Button>

@@ -19,7 +19,7 @@ const LazyQuizDetail = lazy(() => import("./components/QuizDetail"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
+    <Route path="/Quiz" element={<Layout />}>
       <Route
         index
         element={
@@ -53,7 +53,7 @@ function App() {
   return (
     <ErrorBoundary
       FallbackComponent={Error}
-      onReset={() => (window.location.href = "/")}
+      onReset={() => (window.location.href = "/Quiz")}
     >
       <DataProvider>
         <ThemeProvider theme={theme}>
