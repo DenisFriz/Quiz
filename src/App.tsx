@@ -29,7 +29,7 @@ const router = createBrowserRouter(
         }
       />
       <Route
-        path="/detail/:quizID"
+        path="detail/:quizID"
         element={
           <Suspense fallback={<></>}>
             <LazyQuizDetail />
@@ -37,7 +37,7 @@ const router = createBrowserRouter(
         }
       />
       <Route
-        path="/create"
+        path="create"
         element={
           <Suspense fallback={<></>}>
             <LazyCreate />
