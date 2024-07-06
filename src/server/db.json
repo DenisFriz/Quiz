@@ -1,0 +1,410 @@
+{
+  "FakeData": [
+    {
+      "image": "https://habrastorage.org/files/230/81c/56d/23081c56d81744a686c0916ba25a2e2b.png",
+      "title": "React",
+      "id": "a657",
+      "data": [
+        {
+          "id": 0,
+          "title": "What is the virtual DOM in React?",
+          "variants": [
+            "A virtual representation of the DOM",
+            "A way to optimize React apps",
+            "A type of DOM used in React Native"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 1,
+          "title": "What is the purpose of props in React?",
+          "variants": [
+            "To store component-specific data",
+            "To enable communication between components",
+            "To style components"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "What is JSX?",
+          "variants": [
+            "JavaScript XML",
+            "JavaScript Extension",
+            "Java Syntax Extension"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "title": "What hook allows you to perform side effects in function components?",
+          "variants": ["useState", "useEffect", "useContext"],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "title": "Which method is used to change the state in React?",
+          "variants": ["setState()", "changeState()", "updateState()"],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "title": "What does Redux manage?",
+          "variants": ["Server state", "Component state", "Application state"],
+          "correctAnswer": 2,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "title": "What is JSX?",
+          "variants": [
+            "JavaScript XML",
+            "JavaScript Extension",
+            "Java Syntax Extension"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "title": "What hook allows you to perform side effects in function components?",
+          "variants": ["useState", "useEffect", "useContext"],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "title": "Which method is used to change the state in React?",
+          "variants": ["setState()", "changeState()", "updateState()"],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "title": "What does Redux manage?",
+          "variants": ["Server state", "Component state", "Application state"],
+          "correctAnswer": 2,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "title": "What is the virtual DOM in React?",
+          "variants": [
+            "A virtual representation of the DOM",
+            "A way to optimize React apps",
+            "A type of DOM used in React Native"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "title": "What is the purpose of props in React?",
+          "variants": [
+            "To store component-specific data",
+            "To enable communication between components",
+            "To style components"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "title": "What is the role of keys in React lists?",
+          "variants": [
+            "To identify elements uniquely",
+            "To style list items",
+            "To define the order of elements"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "title": "What is the purpose of the useCallback hook in React?",
+          "variants": [
+            "To memoize a function",
+            "To handle component state",
+            "To perform side effects"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "title": "What is the correct way to render a list of items in React?",
+          "variants": [
+            "Using a for loop",
+            "Using the map() method",
+            "Using the forEach() method"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "title": "What is the purpose of the useRef hook in React?",
+          "variants": [
+            "To manage component state",
+            "To access the DOM",
+            "To fetch data from an API"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "title": "What does the useMemo hook do in React?",
+          "variants": [
+            "It memorizes a function",
+            "It updates component state",
+            "It optimizes performance by memoizing a value"
+          ],
+          "correctAnswer": 2,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "title": "What is the purpose of the useContext hook in React?",
+          "variants": [
+            "To manage component state",
+            "To share data between components without passing props",
+            "To handle side effects"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "title": "What is the purpose of the useReducer hook in React?",
+          "variants": [
+            "To manage complex component state",
+            "To handle component side effects",
+            "To optimize performance"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "title": "What does the useEffect hook do in React?",
+          "variants": [
+            "It performs side effects in function components",
+            "It updates component state",
+            "It handles form submissions"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "image": "https://habrastorage.org/files/230/81c/56d/23081c56d81744a686c0916ba25a2e2b.png",
+      "title": "JS",
+      "id": "a657",
+      "data": [
+        {
+          "id": 0,
+          "title": "What is the virtual DOM in React?",
+          "variants": [
+            "A virtual representation of the DOM",
+            "A way to optimize React apps",
+            "A type of DOM used in React Native"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 1,
+          "title": "What is the purpose of props in React?",
+          "variants": [
+            "To store component-specific data",
+            "To enable communication between components",
+            "To style components"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "What is JSX?",
+          "variants": [
+            "JavaScript XML",
+            "JavaScript Extension",
+            "Java Syntax Extension"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "title": "What hook allows you to perform side effects in function components?",
+          "variants": ["useState", "useEffect", "useContext"],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "title": "Which method is used to change the state in React?",
+          "variants": ["setState()", "changeState()", "updateState()"],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "title": "What does Redux manage?",
+          "variants": ["Server state", "Component state", "Application state"],
+          "correctAnswer": 2,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "title": "What is JSX?",
+          "variants": [
+            "JavaScript XML",
+            "JavaScript Extension",
+            "Java Syntax Extension"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "title": "What hook allows you to perform side effects in function components?",
+          "variants": ["useState", "useEffect", "useContext"],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "title": "Which method is used to change the state in React?",
+          "variants": ["setState()", "changeState()", "updateState()"],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "title": "What does Redux manage?",
+          "variants": ["Server state", "Component state", "Application state"],
+          "correctAnswer": 2,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "title": "What is the virtual DOM in React?",
+          "variants": [
+            "A virtual representation of the DOM",
+            "A way to optimize React apps",
+            "A type of DOM used in React Native"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "title": "What is the purpose of props in React?",
+          "variants": [
+            "To store component-specific data",
+            "To enable communication between components",
+            "To style components"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "title": "What is the role of keys in React lists?",
+          "variants": [
+            "To identify elements uniquely",
+            "To style list items",
+            "To define the order of elements"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "title": "What is the purpose of the useCallback hook in React?",
+          "variants": [
+            "To memoize a function",
+            "To handle component state",
+            "To perform side effects"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "title": "What is the correct way to render a list of items in React?",
+          "variants": [
+            "Using a for loop",
+            "Using the map() method",
+            "Using the forEach() method"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "title": "What is the purpose of the useRef hook in React?",
+          "variants": [
+            "To manage component state",
+            "To access the DOM",
+            "To fetch data from an API"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "title": "What does the useMemo hook do in React?",
+          "variants": [
+            "It memorizes a function",
+            "It updates component state",
+            "It optimizes performance by memoizing a value"
+          ],
+          "correctAnswer": 2,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "title": "What is the purpose of the useContext hook in React?",
+          "variants": [
+            "To manage component state",
+            "To share data between components without passing props",
+            "To handle side effects"
+          ],
+          "correctAnswer": 1,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "title": "What is the purpose of the useReducer hook in React?",
+          "variants": [
+            "To manage complex component state",
+            "To handle component side effects",
+            "To optimize performance"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "title": "What does the useEffect hook do in React?",
+          "variants": [
+            "It performs side effects in function components",
+            "It updates component state",
+            "It handles form submissions"
+          ],
+          "correctAnswer": 0,
+          "completed": false
+        }
+      ]
+    }
+  ]
+}
