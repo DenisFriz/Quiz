@@ -53,7 +53,7 @@ const QuizList = () => {
     return (
       <Error
         error={errorContext}
-        resetErrorBoundary={() => (window.location.href = "/")}
+        resetErrorBoundary={() => (window.location.href = "/Quiz")}
       />
     );
 

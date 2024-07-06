@@ -47,7 +47,7 @@ const QuizItem = ({ title, image, setLikedQuiz }: IQuizItem) => {
       <Typography noWrap variant="subtitle1">
         {title}
       </Typography>
-      <Link to={`/detail/${title}`}>
+      <Link to={`/Quiz/detail/${title}`}>
         <Button variant="contained" color="secondary">
           Start
         </Button>
