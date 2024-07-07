@@ -26,17 +26,20 @@ interface IResult {
   data: IQuizQuestion[] | null;
   userAnswers: number[];
 }
-
 const Result = ({
   correctAnswers,
   allQuestions,
   data,
   userAnswers,
 }: IResult) => {
-  const handleCheckCorrect = (item: IQuizQuestion, index: number) => {
-    if (item.correctAnswer == index) {
+  const handleCheckCorrect = (
+    item: IQuizQuestion,
+    questionIndex: number,
+    answerIndex: number
+  ) => {
+    if (item.correctAnswer === answerIndex) {
       return "Item-correct";
-    } else if (userAnswers[index] == index) {
+    } else if (userAnswers[questionIndex] === answerIndex) {
       return "Item-incorrect";
     } else {
       return "";
@@ -58,13 +61,20 @@ const Result = ({
       </Link>
       <Stack spacing={2}>
         {data &&
-          data.map((item, index) => (
-            <ItemContainer key={index}>
-              {index + 1 + ") "}
+          data.map((item, questionIndex) => (
+            <ItemContainer key={questionIndex}>
+              {questionIndex + 1 + ") "}
               {item.title}
-              {item.variants.map((answer, index) => (
-                <Item key={index} className={handleCheckCorrect(item, index)}>
-                  {index + 1 + ") "}
+              {item.variants.map((answer, answerIndex) => (
+                <Item
+                  key={answerIndex}
+                  className={handleCheckCorrect(
+                    item,
+                    questionIndex,
+                    answerIndex
+                  )}
+                >
+                  {answerIndex + 1 + ") "}
                   {answer}
                 </Item>
               ))}
